@@ -1,15 +1,18 @@
+body {
+    margin: 0;
+}
 main {
     background-image: url(data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221440%22%20height%3D%22661.1%22%20viewBox%3D%220%200%201440%20661.1%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3Ecircle%2C%20ellipse%2C%20line%2C%20path%2C%20polygon%2C%20polyline%2C%20rect%2C%20text%20%7B%20fill%3A%20rgb%280%2C%20128%2C%2096%29%20%21important%3B%20%7D%3C%2Fstyle%3E%3Cpath%20fill%3D%22rgb%280%2C%20128%2C%2096%29%22%20d%3D%22M1440%20488c-19.3%204.3-39.2%208.6-60%2013-174.2%2036.5-228.8%20288-467%2076.2-153.6-136.6-424-22.8-660.4-5.8-130.2%209.3-252.6-75-252.6-75V0h1440%22%2F%3E%3C%2Fsvg%3E);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
     position: relative;
-    margin: 0;
-    padding: 0;
 }
 .logo {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    padding: 30px 0;
+    height: 35px;
     fill: #ffffff;
 }
 .h-1 {
@@ -18,7 +21,7 @@ main {
     font-family: ShopifySans, Helvetica, Arial, sans-serif;
     letter-spacing: -0.0207142857em;
     font-weight: 700;
-    font-size: 1.75em;
+    font-size: 5em;
     margin-bottom: 0.5em;
 }
 .p-1 {
@@ -93,26 +96,30 @@ main {
 .main-2 {
     display: flex;
     justify-content: center;
-    margin: 70px;
-    padding: 0 50px;
+    margin: 0px 12em;
+    padding: 6em 32px;
     font-family: ShopifySans, Helvetica, Arial, 'Lucida Grande', sans-serif;
 }
 .block-1 {
     display: flex;
     flex-direction: column;
-    margin-left: 60px;
-    padding: 0 10px 0 70px;
+    margin-right: 2.2346368715%;
+    width: 31.843575419%;
+    float: left;
 }
 .block-2 {
     display: flex;
     flex-direction: column;
-    padding: 0 20px;
+    margin-right: 2.2346368715%;
+    width: 31.843575419%;
+    float: left;
 }
 .block-3 {
     display: flex;
     flex-direction: column;
-    margin-right: 60px;
-    padding: 0 90px 0 40px;
+    margin-right: 0;
+    width: 31.843575419%;
+    float: left;
 }
 .block-img {
     color: #008060;
@@ -134,4 +141,26 @@ main {
     font-weight: 400;
     line-height: 1.5;
     color: #6b7177;
+}
+.end {
+    
+}
+.brand-logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #d2d5d9;
+    border-bottom: 1px solid #d2d5d9;
+    padding: 3em 0;
+    list-style: none;
+    margin: 60px;
+}
+.brand-logo-1 {
+    width: 90px;
+    padding-inline: 15px;
+}
+
+.brand-logo-1 > img {
+    width: inherit;
 }
