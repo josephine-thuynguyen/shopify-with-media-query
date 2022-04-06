@@ -11,7 +11,7 @@ main {
 .logo {
     display: flex;
     justify-content: center;
-    padding: 30px 0;
+    padding-block: 32px 25px;
     height: 35px;
     fill: #ffffff;
 }
@@ -22,6 +22,7 @@ main {
     letter-spacing: -0.0207142857em;
     font-weight: 700;
     font-size: 5em;
+    margin-top: 0.2em;
     margin-bottom: 0.5em;
 }
 .p-1 {
@@ -29,8 +30,9 @@ main {
     color: #ffffff;
     font-family: ShopifySans, Helvetica, Arial, sans-serif;
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 2em;
     line-height: 1;
+
     margin-bottom: 0.8em;
 }
 .input {
@@ -88,15 +90,15 @@ main {
     padding-top: 15px;
 }
 .pic {
-    display: flex;
-    height: 58.5vh;
-    margin: 33px 300px;
-    padding: 0 50px;
+    padding: 0 20em;
+}
+.pic > img {
+    width: 880px;
 }
 .main-2 {
     display: flex;
     justify-content: center;
-    margin: 0px 12em;
+    margin-inline: 15em;
     padding: 6em 32px;
     font-family: ShopifySans, Helvetica, Arial, 'Lucida Grande', sans-serif;
 }
@@ -142,25 +144,22 @@ main {
     line-height: 1.5;
     color: #6b7177;
 }
-.end {
-    
+.end {  
 }
 .brand-logo {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     border-top: 1px solid #d2d5d9;
     border-bottom: 1px solid #d2d5d9;
     padding: 3em 0;
     list-style: none;
-    margin: 60px;
+    margin-inline: 17em;
 }
 .brand-logo-1 {
     width: 90px;
-    padding-inline: 15px;
 }
-
 .brand-logo-1 > img {
     width: inherit;
 }
