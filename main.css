@@ -1,4 +1,5 @@
 body {
+    font-family: Helvetica, Arial, 'Lucida Grande', sans-serif;
     margin: 0;
 }
 main {
@@ -18,7 +19,6 @@ main {
 .h-1 {
     text-align: center;
     color: #ffffff;
-    font-family: ShopifySans, Helvetica, Arial, sans-serif;
     letter-spacing: -0.0207142857em;
     font-weight: 700;
     font-size: 5em;
@@ -28,7 +28,6 @@ main {
 .p-1 {
     text-align: center;
     color: #ffffff;
-    font-family: ShopifySans, Helvetica, Arial, sans-serif;
     font-weight: 300;
     font-size: 2em;
     line-height: 1;
@@ -47,7 +46,6 @@ main {
     margin: 0 15px 15px;
     padding: 1em 0.9375em;
     color: #212326;
-    font-family: ShopifySans, Helvetica, Arial, sans-serif;
     font-size: 1em;
     box-shadow: 0 0 0 1px #6b7177;
     border: 1px solid transparent;
@@ -65,13 +63,9 @@ main {
     background-color: #212326;
     color: #ffffff;
     cursor: pointer;
-    text-decoration: none;
-    padding: 1em 1.8em;
     border-radius: 4px;
-    font-family: ShopifySans, Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 1em;
-    line-height: 1;
     transition: 150ms ease;
     text-align: center;
     border-width: 1px;
@@ -84,7 +78,6 @@ main {
     line-height: 1.5;
     font-size: 0.75em;
     font-weight: 400;
-    font-family: ShopifySans, Helvetica, Arial, 'Lucida Grande', sans-serif;
     margin-top: 16px;
     margin-bottom: 32px;
     padding-top: 15px;
@@ -100,7 +93,6 @@ main {
     justify-content: center;
     margin-inline: 15em;
     padding: 6em 32px;
-    font-family: ShopifySans, Helvetica, Arial, 'Lucida Grande', sans-serif;
 }
 .block-1 {
     display: flex;
@@ -162,4 +154,43 @@ main {
 }
 .brand-logo-1 > img {
     width: inherit;
+}
+.paragraph-end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5em;
+}
+.paragraph-end-1 {
+    font-size: 1.5em;
+    font-weight: 100;
+    color: #212326;
+    letter-spacing: 0.02em;
+    text-align: center;
+    width: 29em;
+    margin-bottom: 0.4em;
+}
+.paragraph-end-2 {
+    font-size: 0.88em;
+    font-weight: 600;
+    color: #42474c;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+.trial {
+    height: 3.4em;
+    width: 10.3em;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+    background-color: #008060;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 150ms ease;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    margin: 2em;
 }
